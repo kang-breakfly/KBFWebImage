@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  ="KBFSocketRocket"
 
-  spec.homepage     = "https://github.com/SDWebImage/SDWebImage"
+  spec.homepage     = "https://github.com/kang-breakfly/KBFWebImage"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/SDWebImage/SDWebImage.git", :tag => "#{spec.version}" }
+  spec.source = { :git => "https://github.com/kang-breakfly/KBFWebImage.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SocketRocket/*.{h,m}"
+  spec.source_files  = "SDWebImage/*.{h,m}","WebImage/*.h"
   # spec.exclude_files = "UIKit"
   spec.platform     = :ios, "9.0"
   # spec.public_header_files = "Classes/**/*.h"
